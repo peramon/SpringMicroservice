@@ -5,9 +5,10 @@ spring:
     config:
       server:
         git:
-          default-label: instances
+          default-label: gateway
           uri: https://github.com/peramon/SpringMicroservice
           search-paths: config-data
   application:
     name: config-service
+
 
